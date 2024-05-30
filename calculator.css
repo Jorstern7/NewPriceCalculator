@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 62px 1fr 52px 262px;
+  background-color: rgba(240, 240, 221, 0.863);
+  overflow-x: hidden;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(179, 176, 173);
+}
+
+h2 {
+  text-align: center;
+}
+
+input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 40px;
+  padding: 0 20px;
+  background-color: rgb(228, 228, 150);
+  border: none;
+  border: 1px solid yellow;
+  border-radius: 20px;
+  color: brown;
+}
+
+input:focus {
+  background-color: rgb(228, 228, 150);
+}
+
+input:hover {
+  background-color: rgb(241, 241, 119);
+}
+
+input::placeholder {
+  color: brown;
+}
+
+.container-fields {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.signature {
+  color: rgb(241, 241, 119);
+}
+
+.calculate {
+  width: 100px;
+  height: 40px;
+  border: none;
+  border: 1px solid rgb(194, 194, 160);
+  border-radius: 20px;
+}
+
+.form-box {
+  border: 1px solid yellow;
+  border-radius: 20px;
+  background-color: yellowgreen;
+  padding: 10px 15px;
+  margin: 12px auto;
+  width: 250px;
+}
+
+.clear-btn {
+  width: 100px;
+  height: 40px;
+  border: none;
+  border: 1px solid rgb(194, 194, 160);
+  border-radius: 20px;
+}
+
+.margin-fix {
+  margin: 12px auto;
+}
+
+.note-box {
+  display: block;
+  padding: 5px 0;
+  height: 250px;
+  line-height: 0%;
+  color: brown;
+}

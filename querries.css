@@ -1,0 +1,40 @@
+/* *************************** */
+/* BELOW 1000PX (tablet) */
+/* *************************** */
+
+@media (max-width: 62em) {
+  body {
+    width: 75vw;
+  }
+
+  .title {
+    font-size: 0.6rem;
+    text-wrap: nowrap;
+  }
+}
+
+/* *************************** */
+/* BELOW 800PX (tablet) */
+/* *************************** */
+
+@media (max-width: 50em) {
+  .title {
+    font-size: 0.6rem;
+    text-wrap: nowrap;
+  }
+}
+
+/* *************************** */
+/* BELOW 600PX (tablet) */
+/* *************************** */
+
+@media (max-width: 37em) {
+  .title {
+    font-size: 0.6rem;
+    text-wrap: nowrap;
+  }
+
+  .margin-fix {
+    margin: 12px auto;
+  }
+}
